@@ -1,4 +1,4 @@
 resource "aws_instance" "public_instance" {
- ami           = var.ami
+ ami           = ""
  instance_type = ""
 }
