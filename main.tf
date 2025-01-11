@@ -1,8 +1,8 @@
 resource "aws_instance" "public_instance" {
- ami           = ""
+ ami           = var.ami
  instance_type = var.instance_type
-}
- tags = {
+
+tags = {
    Name = var.name_tag,
  }
 }
